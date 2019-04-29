@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         StackOverflow Additions
 // @namespace    https://GottZ.de
-// @version      0.1
+// @version      0.1.1
 // @description  change some stackoverflow styling
 // @author       GottZ
 // @include      /^https?:\/\/stackoverflow\.com\//
@@ -18,7 +18,7 @@
     const style = document.createElement("style");
     unsafeWindow.document.head.appendChild(style);
     style.textContent = `
-        .s-btn-group, pre, .post-signature.owner {
+        .s-btn-group, pre, .post-signature.owner, .post-editor > .ps-relative {
             box-shadow: 0 2px 8px rgba(59, 64, 69, 0.1);
         }
         pre {
