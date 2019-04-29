@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         StackOverflow Additions
 // @namespace    https://GottZ.de
-// @version      0.1.1
+// @version      0.1.2
 // @description  change some stackoverflow styling
 // @author       GottZ
 // @include      /^https?:\/\/stackoverflow\.com\//
@@ -9,7 +9,7 @@
 // @downloadURL  https://github.com/GoldenSpaceCat/StackOverflow-Additions/raw/master/SO-A.user.js
 // @icon         https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico
 // @grant        unsafeWindow
-// @run-at       document-start
+// @run-at       document-body
 // ==/UserScript==
 
 (function() {
